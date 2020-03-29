@@ -1,0 +1,83 @@
+<body>
+
+  <div>
+    <ul class="nav nav-tabs nav-fill">
+      <li class="nav-item">
+        <a class="nav-link active homeItem" id="home" href="#" onclick="return showContent1();">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link teachersitem" href="#" onclick="return showContent2();">TEACHERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link addremoveitem" href="#" onclick="return showContent3();">MANAGE</a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="homeNav" clas="jumbotron-fluid mx-auto;" style="display:block" class="text-center">
+    <h1>
+      Hello Admin
+      <small class="text-muted">AARON MCMERRY</small>
+    </h1>
+    <h1 class="display-2">Analytics</h1>
+
+    <table class="columns auto" style="border-spacing: 90px width: 100%">
+      <tr>
+        <td>
+          <div id="analyticsPie" style="border: 1px solid #ccc "></div>
+        </td>
+        <td>
+          <div id="analyticsBar" style="border: 1px solid #ccc "></div>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <div id="teachersNav" style="display:none ">
+    
+<h1 class="display-3">Current Enrolled Teachers</h1>
+
+<div class="row teachersA">
+  <div class="col-4">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="">Dr. Jane U.</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Marie K.</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Yoshua B.</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">John L</a>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+        <p>English 3 Professor</p>
+      </div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Science Teacher</div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><p>History Teacher<p></div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"><p>Math Teacher</p></div>
+    </div>
+  </div>
+</div>
+    
+    
+  </div>
+
+  <div id="addRemoveNav" style="display:none ">
+
+    <div class="jumbotron jambotron-fluid leftSide">
+      <h1 class="display-2"><u>Add <strong>Teacher</u> </h1>
+      <button type="button" class="btn btn-outline-success btn-circle btn-xl"><i class="fa fa-plus"></i>Add</button>
+    </div>
+
+    <div class="jumbotron jambotron-fluid rightSide">
+      <h1 class="display-2"><u>Remove <strong>Teacher</u> </h1>
+      <button type="button" class="btn btn-outline-success btn-circle btn-xl"><i class="fa fa-plus"></i>Remove</button>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>

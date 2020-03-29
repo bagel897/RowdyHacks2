@@ -1,0 +1,43 @@
+table {
+
+}
+div.teachersNav {
+   
+}
+div.leftSide {
+  position: absolute;
+  left: auto;
+  width: 700px;
+  height: 400px;
+  text-align: center;
+  top: 50px;
+}
+div.rightSide {
+  
+   position: absolute;
+  left: 800px;
+  width: 700px;
+  height: 400px;
+    text-align: center;
+  top: 50px;
+
+}
+
+.btn-circle.btn-xl {
+    width: 170px;
+    height: 120px;
+    padding: 20px 26px;
+    border-radius: 70px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
